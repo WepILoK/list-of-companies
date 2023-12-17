@@ -1,0 +1,30 @@
+.table-wrapper
+  .table-top
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 50px
+
+
+  .table
+    width: 100%
+    position: relative
+    overflow: auto
+    display: block
+    tr
+      border: 1px solid lightgray
+
+    td, th
+      padding: 10px
+      border: 1px solid lightgray
+
+    thead
+      position: sticky
+      top: 0
+      background-color: white
+      .checkbox
+        max-width: 50px
+    tfoot
+      position: sticky
+      bottom: 0
+      background-color: white
